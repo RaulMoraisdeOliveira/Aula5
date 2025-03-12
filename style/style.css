@@ -1,4 +1,4 @@
-table {
+/* table {
     margin: 20px auto;
     width: 90%;
     border-collapse: collapse;
@@ -32,4 +32,19 @@ td {
 
 .linhas-pares  {
     background-color: grey;
+} */
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+    /* flex-wrap: wrap;
+    flex-direction: column; */
+}
+
+.filhos {
+    border: 1px solid mediumseagreen;
+    /* width: 300px; */
 }
